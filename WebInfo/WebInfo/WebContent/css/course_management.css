@@ -1,0 +1,116 @@
+div.course {
+	position: absolute;
+	top: 60px;
+	width: 90%;
+	height: 92%;
+	padding: none;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+}
+
+.course div.course_list {
+	float: left;
+	position: relative;
+
+	background-color: white;
+	margin: 0.5%;
+	padding: 2.5%;
+	width: 44%;
+	height: 89%;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 3px 3px 3px #999;
+	-moz-box-shadow: 3px 3px 3px #999;
+	box-shadow: 3px 3px 3px #999;
+}
+
+.course_list h1 {
+	line-height: 9%;
+	padding: none;
+	margin: none;
+	font-size: 25px;
+	font-weight: lighter;
+	color: #808080;
+}
+
+.course_list iframe {
+	border: none;
+	position: relative;
+	padding: none;
+	margin: none;
+	width: 100%;
+	height: 85%;
+}
+
+.course div.schedule {
+	float: left;
+
+	background-color: white;
+	margin: 0.5%;
+	padding: 2.5%;
+	width: 44%;
+	height: 39%;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 3px 3px 3px #999;
+	-moz-box-shadow: 3px 3px 3px #999;
+	box-shadow: 3px 3px 3px #999;
+}
+
+.schedule h1 {
+	line-height: 9%;
+	padding: none;
+	margin: none;
+	font-size: 25px;
+	font-weight: lighter;
+	color: #808080;
+}
+
+.schedule iframe {
+	border: none;
+	position: relative;
+	padding: none;
+	margin: none;
+	width: 100%;
+	height: 75%;
+}
+
+.course div.history {
+	float: left;
+
+	background-color: white;
+	margin: 0.5%;
+	padding: 2.5%;
+	width: 44%;
+	height: 40%;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 3px 3px 3px #999;
+	-moz-box-shadow: 3px 3px 3px #999;
+	box-shadow: 3px 3px 3px #999;
+}
+
+.history h1 {
+	line-height: 9%;
+	padding: none;
+	margin: none;
+	font-size: 25px;
+	font-weight: lighter;
+	color: #808080;
+}
+
+.history iframe {
+	border: none;
+	position: relative;
+	padding: none;
+	margin: none;
+	width: 100%;
+	height: 65%;
+}

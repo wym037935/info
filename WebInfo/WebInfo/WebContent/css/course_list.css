@@ -1,0 +1,208 @@
+body.course_list {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 10px;
+	color: #808080;
+	padding: none;
+	margin: none;
+}
+
+.course_list table {
+	background-color: white;
+	border: none;
+	width: 100%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 10px;
+	color: #808080;
+	table-layout: fixed;
+}
+
+.course_list th {
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.tick {
+	width: 6%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.no {
+	width: 10%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.name {
+	width: 29%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.credit {
+	width: 6%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.time {
+	width: 10%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.time_begin {
+	width: 10%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.time_end {
+	width: 10%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list th.teacher {
+	width: 10%;
+	background-color: #808080;
+	color: white;
+}
+
+.coutse_list th.avail {
+	width: 10%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_list td {
+	padding: 1%;
+}
+
+.course_list td.tick {
+	width: 6%;
+	text-align: center;
+}
+
+.course_list td.no {
+	width: 10%;
+}
+
+.course_list td.name {
+	width: 29%;
+}
+
+.course_list td.credit {
+	width: 6%;
+}
+
+.course_list td.time {
+	width: 10%;
+}
+
+.course_list td.time_begin {
+	width: 10%;
+}
+
+.course_list td.time_end {
+	width: 10%;
+}
+
+.course_list td.teacher {
+	width: 10%;
+}
+
+.coutse_list td.avail {
+	width: 10%;
+}
+
+.course_list td.tick_alt {
+	width: 6%;
+	background-color: #EDEDED;
+	text-align: center;
+}
+
+.course_list td.no_alt {
+	width: 10%;
+	background-color: #EDEDED;
+}
+
+.course_list td.name_alt {
+	width: 29%;
+	background-color: #EDEDED;
+}
+
+.course_list td.credit_alt {
+	width: 6%;
+	background-color: #EDEDED;
+}
+
+.course_list td.time_alt {
+	width: 10%;
+	background-color: #EDEDED;
+}
+
+.course_list td.time_begin_alt {
+	width: 10%;
+	background-color: #EDEDED;
+}
+
+.course_list td.time_end_alt {
+	width: 10%;
+	background-color: #EDEDED;
+}
+
+.course_list td.teacher_alt {
+	width: 10%;
+	background-color: #EDEDED;
+}
+
+.course_list td.avail_alt {
+	width: 10%;
+	background-color: #EDEDED;
+}
+
+.course_list input[type="submit"] {
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+	opacity: 0.8;
+	background-image: url("./res/tick_transparent.png");
+	background-position: center;
+	background-size: 80px;
+	background-color: #4AB84A;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	box-shadow: 3px 3px 3px #999;
+	-webkit-box-shadow: 3px 3px 3px #999;
+	-moz-box-shadow: 3px 3px 3px #999;
+	outline: none;
+	border: none;
+}
+
+.course_list input[type="submit"]:hover{
+	background-image: url("./res/tick_transparent_inverted.png");
+	background-position: center;
+	background-size: 80px;
+	background-color: white;
+}
+
+.course_list input[type="submit"]:active{
+	position: fixed;
+	bottom: 57px;
+	right: 57px;
+	background-image: url("./res/tick_transparent_inverted.png");
+	background-position: center;
+	background-size: 80px;
+	background-color: white;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}

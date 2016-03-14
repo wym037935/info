@@ -1,0 +1,65 @@
+body.course_forecast {
+	width: 100%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 10px;
+	color: #808080;
+	padding: none;
+	margin: none;
+}
+
+.course_forecast table {
+	border: none;
+	background-color: white;
+	padding: none;
+	margin: none;
+	text-align: left;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.course_forecast td {
+	margin: none;
+	padding: 1%;
+}
+
+.course_forecast th {
+	background-color: #808080;
+	color: white;
+	width: 98%;
+	padding: 1%;
+}
+
+.course_forecast td.name {
+	width: 48%;
+}
+
+.course_forecast td.time {
+	width: 23%;
+}
+
+.course_forecast td.place {
+	width: 23%;
+}
+
+.course_forecast tr.alt {
+	background-color: #EDEDED;
+}
+
+.alt td {
+	margin: none;
+	padding: 1%;
+}
+
+.alt td.name {
+	width: 48%;
+}
+
+.alt td.time {
+	width: 23%;
+}
+
+.alt td.place {
+	width: 23%;
+}

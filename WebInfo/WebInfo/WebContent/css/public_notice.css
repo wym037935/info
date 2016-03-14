@@ -1,0 +1,120 @@
+body.public_notice {
+	width: 100%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 10px;
+	color: #808080;
+	padding: none;
+	margin: none;
+}
+
+.public_notice table {
+	border: none;
+	background-color: white;
+	padding: none;
+	margin: none;
+	text-align: left;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.public_notice th {
+	margin: none;
+	padding: 1%;
+	background-color: #808080;
+	color: white;
+}
+
+.public_notice th.name {
+	width: 73%;
+}
+
+.public_notice a:link {
+	text-decoration: none;
+	color: #808080;
+}
+
+.public_notice a:hover {
+	text-decoration: underline;
+}
+
+.public_notice a:visited {
+	color: #B2B2B2;
+}
+
+.public_notice th.date {
+
+}
+
+.public_notics th.source {
+	width: 23%;
+}
+
+.public_notice td {
+	margin: none;
+	padding: 1%;
+}
+
+.public_notice td.name {
+	width: 73%;
+}
+
+.public_notice td.date {
+
+}
+
+.public_notice td.source {
+	width: 23%;
+}
+
+.public_notice tr.alt {
+	background-color: #EDEDED;
+}
+
+.alt td {
+	margin: none;
+	padding: 1%;
+}
+
+.alt td.name {
+	width: 73%;
+}
+
+.alt td.date {
+
+}
+
+.alt td.source {
+	width: 23%;
+}
+
+table.notice {
+	border: none;
+	background-color: white;
+	padding: none;
+	margin: none;
+	text-align: left;
+	width: 100%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 10px;
+}
+
+.notice th {
+	margin: none;
+	padding: 1%;
+	background-color: #808080;
+	color: white;
+}
+
+.notice th.name {
+	width: 73%;
+}
+
+.notice th.date {
+
+}
+
+.notice th.source {
+	width: 23%;
+}

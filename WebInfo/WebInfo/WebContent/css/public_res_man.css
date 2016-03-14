@@ -1,0 +1,103 @@
+body.res_list {
+	
+}
+
+.res_list table {
+	margin: none;
+	padding: none;
+	width: 100%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 13px;
+	color: #808080;
+	border: none;
+}
+
+.res_list th {
+	background-color: #808080;
+	color: white;
+	padding: 1%;
+	text-align: center;
+	border: none;
+}
+
+.res_list th.name {
+	width: 38%;
+}
+
+.res_list th.op {
+	width: 13%;
+}
+
+.res_list th.size {
+	width: 13%;
+}
+
+.res_list th.publisher {
+	width: 13%;
+}
+
+.res_list th.date {
+	width: 13%;
+}
+
+.res_list td {
+	background-color: white;
+	color: #808080;
+	padding: 1%;
+	text-align: center;
+	border: none;
+}
+
+.res_list td.name {
+	text-align: left;
+	width: 38%;
+}
+
+.res_list td.type {
+	width: 13%;
+}
+
+.res_list td.op {
+	width: 13%;
+}
+
+.res_list td.publisher {
+	width: 13%;
+}
+
+.res_list td.date {
+	width: 13%;
+}
+
+tr.alt {
+
+}
+
+.alt td {
+	background-color: #EDEDED;
+	color: #808080;
+	padding: 1%;
+	text-align: center;
+	border: none;
+}
+
+.alt td.name {
+	text-align: left;
+	width: 38%;
+}
+
+.alt td.op {
+	width: 13%;
+}
+
+.alt td.size {
+	width: 13%;
+}
+
+.alt td.publisher {
+	width: 13%;
+}
+
+.alt td.date {
+	width: 13%;
+}

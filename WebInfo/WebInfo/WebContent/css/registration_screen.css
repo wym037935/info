@@ -1,0 +1,135 @@
+div.card_reg {
+	background-color: white;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	color: #666666;
+	padding: 5%;
+	width: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 4px 4px 4px #999;
+	-moz-box-shadow: 4px 4px 4px #999;
+	box-shadow: 4px 4px 4px #999;
+}
+
+.card_reg h1 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.card_reg table {
+	text-align: left;
+	vertical-align: center;
+	width: 100%;
+	border-bottom: 2px dotted #EDEDED;
+}
+
+.card_reg td {
+	padding: 2%;
+}
+
+.card_reg td.col {
+	font-size: 15px;
+	font-weight: lighter;
+	width: 24%;
+}
+
+.card_reg td.field {
+	width: 40%;
+}
+
+.card_reg td.note {
+	font-size: 10px;
+	font-weight: lighter;
+}
+
+.card_reg input[type=text] {
+	width: 100%;
+	font-size: 15px;
+	color: #4791FF;
+	height: 20px;
+	background-color: white;
+	outline: none;
+}
+
+.card_reg input[type=password] {
+	width: 100%;
+	font-size: 15px;
+	color: #4791FF;
+	height: 20px;
+	background-color: white;
+	outline: none;
+}
+
+.card_reg input[type="submit"] {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 15px;
+	outline: none;
+	background-color: #4AB84A;
+	color: white;
+	width: 30%;
+	margin-left: 70%;
+	margin-top: 30px;
+	height: 40px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.card_reg input[type="submit"]:hover, input[type="submit"]:active {
+	background-color: white;
+	color: #666666;
+	outline: none;
+}
+
+.card_reg a.green_button {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	outline: none;
+	background-color: #4AB84A;
+	color: white;
+	display: block;
+	margin-left: 70%;
+	width: 30%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.card_reg a.green_button:hover, a.green_button:active {
+	background-color: white;
+	color: #666666;
+	outline: none;
+}
+
+.card_reg table.inner {
+	padding: none;
+	border: none;
+	margin: none;
+}
+
+.inner td {
+	padding-right: 2%;
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.inner td.end {
+	padding: 0;
+}

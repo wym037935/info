@@ -1,0 +1,55 @@
+table.course_schedule {
+	background-color: white;
+	width: 100%;
+	border: none;
+	text-align: center;
+	color: #808080;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 10px;
+}
+
+.course_schedule td {
+	border: none;
+	width: 11%;
+	padding: 1%;
+}
+
+.course_schedule td.first {
+	border: none;
+	width: 7%;
+	padding: 1%;
+}
+
+.course_schedule th {
+	border: none;
+	width: 11%;
+	padding: 1%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_schedule th.first {
+	border: none;
+	width: 7%;
+	padding: 1%;
+	background-color: #808080;
+	color: white;
+}
+
+.course_schedule tr.alt {
+	background-color: #EDEDED;
+}
+
+.alt td {
+	border: none;
+	width: 11%;
+	padding: 1%;
+	background-color: #EDEDED;
+}
+
+.alt td.first {
+	border: none;
+	width: 7%;
+	padding: 1%;
+	background-color: #EDEDED;
+}

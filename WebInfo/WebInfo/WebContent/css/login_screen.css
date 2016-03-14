@@ -1,0 +1,92 @@
+div.login_background {
+	width: 60%;
+	height: 400px;
+
+	position: relative;
+	top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: white;
+
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px; 
+	-webkit-box-shadow: 4px 4px 4px #999;
+	-moz-box-shadow: 4px 4px 4px #999;
+	box-shadow: 4px 4px 4px #999;
+}
+
+div.login_l {
+	position: absolute;
+	width: 48%;
+	height: 74%;
+	padding: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+	border-right-style: dotted;
+	border-right-color: #EDEDED;
+}
+
+h1.login_l {
+	font-weight: lighter;
+	font-size: 30px;
+	color: #808080;
+}
+
+p.login_l {
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+div.login_r {
+	position: absolute;
+	left: 60%;
+	width: 29%;
+	height: 74%;
+	padding: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+}
+
+input.login_r {
+	font-family: "Georgia",serif;
+	font-size: 15px;
+	color: #808080;
+	width: 100%;
+	height: 30px;
+}
+
+input.login_r[type="submit"] {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	background-color: #4AB84A;
+	color: white;
+	width: 45%;
+	margin-left: 55%;
+	margin-top: 30px;
+	height: 40px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+input.login_r[type="submit"]:hover {
+	background-color: white;
+	color: #666666;
+}
+
+a.login_r:link,a.login_r:visited {
+	text-decoration: underline;
+	color: #5C9DFF;
+}
+
+a.login_r:hover,a.login_r:active {
+	color: #4AB84A;
+}

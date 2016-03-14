@@ -1,0 +1,61 @@
+div.card_add {
+	background-color: white;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	color: #808080;
+	padding: 5%;
+	width: 40%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 3px 3px 3px #999;
+	-moz-box-shadow: 3px 3px 3px #999;
+	box-shadow: 3px 3px 3px #999;
+}
+
+.card_add h1 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.card_add p {
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.card_add input[type=text] {
+	width: 100%;
+	font-size: 15px;
+	height: 20px;
+	background-color: white;
+	outline: none;
+}
+
+.card_add input[type="submit"] {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	font-size: 15px;
+	outline: none;
+	background-color: #4AB84A;
+	color: white;
+	width: 30%;
+	margin-left: 70%;
+	margin-top: 30px;
+	height: 40px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.card_add input[type="submit"]:hover, input[type="submit"]:active {
+	background-color: white;
+	color: #666666;
+	outline: none;
+}
